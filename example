@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ole Miss Alpha Phi</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #7a1f3d;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background: #eeeeee;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #7a1f3d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #7a1f3d;
+    }
+
+    .exec-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+
+    .exec-member {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #7a1f3d;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alpha Phi – Ole Miss</h1>
+    <p>University of Mississippi | Epsilon Xi Chapter</p>
+  </header>
+
+  <nav>
+    <a href="#exec">Executive Board</a>
+    <a href="#accomplishments">Accomplishments</a>
+    <a href="#recruitment">Recruitment</a>
+    <a href="#location">Location</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="exec">
+    <h2>Executive Board</h2>
+    <div class="exec-grid">
+      <div class="exec-member">
+        <strong>President</strong><br/>
+        Jane Doe<br/>
+        jane.doe@olemiss.edu
+      </div>
+      <div class="exec-member">
+        <strong>VP of Health, Wellness, & Accountability</strong><br/>
+        Sarah Smith<br/>
+        sarah.smith@olemiss.edu
+      </div>
+      <div class="exec-member">
+        <strong>VP of Marketing</strong><br/>
+        Emily Johnson<br/>
+        emily.j@olemiss.edu
+      </div>
+      <div class="exec-member">
+        <strong>VP of Recruitment</strong><br/>
+        Hannah Brown<br/>
+        hannah.b@olemiss.edu
+      </div>
+      <div class="exec-member">
+        <strong>Director of New Member Education</strong><br/>
+        Megan Davis<br/>
+        megan.d@olemiss.edu
+      </div>
+      <!-- Add more positions here -->
+    </div>
+  </section>
+
+  <section id="accomplishments">
+    <h2>Accomplishments</h2>
+    <ul>
+      <li>Top Chapter GPA – Fall 2024</li>
+      <li>Most Philanthropic Chapter Award</li>
+      <li>Over $15,000 raised for the Alpha Phi Foundation</li>
+      <li>Winner of Greek Week 2024</li>
+    </ul>
+  </section>
+
+  <section id="recruitment">
+    <h2>Recruitment</h2>
+    <p>We are so excited to meet our future sisters!</p>
+    <p><strong>Fall 2025 Primary Recruitment:</strong></p>
+    <ul>
+      <li><strong>Orientation:</strong> August 10</li>
+      <li><strong>Philanthropy Round:</strong> August 12–13</li>
+      <li><strong>Sisterhood Round:</strong> August 14</li>
+      <li><strong>Preference Night:</strong> August 15</li>
+      <li><strong>Bid Day:</strong> August 16 🎉</li>
+    </ul>
+    <p>To learn more, visit <a href="https://panhellenic.olemiss.edu">panhellenic.olemiss.edu</a>.</p>
+  </section>
+
+  <section id="location">
+    <h2>Our Home</h2>
+    <p>Come visit us at our beautiful chapter house, located at:</p>
+    <p><strong>Alpha Phi – Epsilon Xi</strong><br/>
+      800 Sorority Row<br/>
+      University, MS 38677
+    </p>
+    <iframe 
+      src="https://maps.google.com/maps?q=alpha%20phi%20sorority%20ole%20miss&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> alphaphi@olemiss.edu</p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/olemissalphaphi">@olemissalphaphi</a></p>
+    <p><strong>Mailing Address:</strong><br/>
+      Alpha Phi Sorority<br/>
+      Epsilon Xi Chapter<br/>
+      University of Mississippi<br/>
+      University, MS 38677
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Alpha Phi – Epsilon Xi | Designed with ♥ by the Sisterhood
+  </footer>
+</body>
+</html>
